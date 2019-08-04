@@ -1,0 +1,8 @@
+// SPDX-License-Identifier: Apache-2.0
+
+prebuilt_etc {
+    name: "init.custom.rc",
+    src: "init.custom.rc",
+    sub_dir: "init",
+    product_specific: true,
+}
