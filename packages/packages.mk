@@ -2,3 +2,4 @@
 # Package settings, one file per setting
 
 include product/custom/packages/procmem.mk
+include product/custom/packages/package_check.mk
