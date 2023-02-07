@@ -3,6 +3,7 @@
 
 include product/custom/properties/adb.mk
 include product/custom/properties/debuggable.mk
+include product/custom/properties/transaction_tracing.mk
 include product/custom/properties/strict_mode.mk
 include product/custom/properties/rescue_party.mk
 include product/custom/properties/privapp_permissions.mk
