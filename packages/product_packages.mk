@@ -2,3 +2,4 @@
 # Package settings for the product partition, one file per setting
 
 include product/custom/packages/init.mk
+include product/custom/packages/compatibility_matrix_lineage.mk
