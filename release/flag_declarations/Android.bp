@@ -1,0 +1,8 @@
+// SPDX-License-Identifier: Apache-2.0
+
+build_flag_declarations {
+    name: "custom-build_flags-build-release",
+    srcs: [
+        "*.textproto",
+    ],
+}
