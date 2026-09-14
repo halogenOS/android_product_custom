@@ -3,7 +3,7 @@
 CUSTOM_PRODUCT_NAME ?= halogenOS
 CUSTOM_BUILD_TYPE ?= UNOFFICIAL
 
-CUSTOM_DEVICE := $(shell echo "$(TARGET_PRODUCT)" | cut -d '_' -f2-)
+CUSTOM_DEVICE := $(TARGET_PRODUCT)
 
 # Build date is injected post-build by sign_build() to keep builds
 # reproducible and avoid rebuilds when only the timestamp changes.
