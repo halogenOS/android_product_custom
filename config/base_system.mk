@@ -2,3 +2,4 @@
 # Adds to build/make/target/product/base_system.mk
 
 include product/custom/packages/packages.mk
+include product/custom/compilation/compilation.mk
