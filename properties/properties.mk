@@ -3,3 +3,4 @@
 
 include product/custom/properties/adb.mk
 include product/custom/properties/strict_mode.mk
+include product/custom/properties/rescue_party.mk
