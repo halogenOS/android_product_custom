@@ -2,3 +2,4 @@
 # Adds to build/make/target/product/base_product.mk
 
 include product/custom/config/branding.mk
+include product/custom/properties/properties.mk
