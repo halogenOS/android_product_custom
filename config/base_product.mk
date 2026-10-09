@@ -5,3 +5,4 @@ include product/custom/config/branding.mk
 include product/custom/properties/properties.mk
 include product/custom/packages/product_packages.mk
 include product/custom/input/input.mk
+include product/custom/apps/apps.mk
