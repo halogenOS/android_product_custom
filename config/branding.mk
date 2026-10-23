@@ -5,13 +5,12 @@ CUSTOM_BUILD_TYPE ?= UNOFFICIAL
 
 CUSTOM_DEVICE := $(TARGET_PRODUCT)
 
-# Build date is injected post-build by sign_build() to keep builds
-# reproducible and avoid rebuilds when only the timestamp changes.
-CUSTOM_BUILD_DATE_PLACEHOLDER := 00000000-000000
-
 CUSTOM_PLATFORM_VERSION := $(shell echo $(ROM_VERSION) | cut -d '-' -f2)
 
-CUSTOM_VERSION := $(CUSTOM_PRODUCT_NAME)_$(CUSTOM_DEVICE)-$(CUSTOM_PLATFORM_VERSION)-$(CUSTOM_BUILD_DATE_PLACEHOLDER)-$(CUSTOM_BUILD_TYPE)
+# soong_ui sets BUILD_DATE_PLACEHOLDER, and gen_build_prop writes build_date in
+# its place: the date of the signing build, or the placeholder itself in a
+# regular build, which then rebuilds nothing for a new date.
+CUSTOM_VERSION := $(CUSTOM_PRODUCT_NAME)_$(CUSTOM_DEVICE)-$(CUSTOM_PLATFORM_VERSION)-$(BUILD_DATE_PLACEHOLDER)-$(CUSTOM_BUILD_TYPE)
 CUSTOM_DISPLAY_VERSION := $(CUSTOM_PLATFORM_VERSION)
 
 PRODUCT_PRODUCT_PROPERTIES += \
