@@ -3,3 +3,6 @@
 
 # Etar, the calendar, in place of AOSP's Calendar
 PRODUCT_PACKAGES += Etar
+
+# ExactCalculator, the calculator, in place of AOSP's Calculator
+PRODUCT_PACKAGES += ExactCalculator
