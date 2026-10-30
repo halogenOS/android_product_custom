@@ -3,3 +3,6 @@
 
 # APN list from vendor/apn
 PRODUCT_PACKAGES += apns-conf.xml
+
+# Default ringtone, an AOSP sound
+PRODUCT_PRODUCT_PROPERTIES += ro.config.ringtone=Orion.ogg
