@@ -4,3 +4,4 @@
 include product/custom/packages/packages.mk
 include product/custom/compilation/compilation.mk
 include product/custom/art/art.mk
+include product/custom/tools/tools.mk
