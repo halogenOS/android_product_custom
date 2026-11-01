@@ -6,6 +6,9 @@ PRODUCT_PACKAGES += \
     lineage_alarm_sounds \
     lineage_notification_sounds
 
+# Off-mode charging screen from packages/resources/lineage
+PRODUCT_PACKAGES += lineage_charger_animation
+
 # Default notification sound, an AOSP sound
 PRODUCT_PRODUCT_PROPERTIES += ro.config.notification_sound=Argon.ogg
 
