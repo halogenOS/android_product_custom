@@ -12,3 +12,6 @@ PRODUCT_PACKAGES += Seedvault
 
 # Wallpapers, the wallpaper pack
 PRODUCT_PACKAGES += Wallpapers
+
+# ClockStyles, the lock screen clock styles
+PRODUCT_PACKAGES += ClockStyles
