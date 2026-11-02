@@ -3,3 +3,4 @@
 
 include product/custom/packages/init.mk
 include product/custom/packages/compatibility_matrix_lineage.mk
+include product/custom/packages/compatibility_matrix_custom.mk
