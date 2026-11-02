@@ -9,3 +9,6 @@ PRODUCT_PACKAGES += ExactCalculator
 
 # Seedvault, the backup app
 PRODUCT_PACKAGES += Seedvault
+
+# Wallpapers, the wallpaper pack
+PRODUCT_PACKAGES += Wallpapers
