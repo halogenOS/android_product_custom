@@ -15,3 +15,6 @@ PRODUCT_PACKAGES += Wallpapers
 
 # ClockStyles, the lock screen clock styles
 PRODUCT_PACKAGES += ClockStyles
+
+# Camelot, the PDF viewer
+PRODUCT_PACKAGES += Camelot
