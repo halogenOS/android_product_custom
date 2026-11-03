@@ -13,8 +13,13 @@ PRODUCT_PACKAGES += Seedvault
 # Wallpapers, the wallpaper pack
 PRODUCT_PACKAGES += Wallpapers
 
-# ClockStyles, the lock screen clock styles
-PRODUCT_PACKAGES += ClockStyles
+# ClockStyles, the lock screen clock styles, with the overlays that add them to the plugin lists
+# of SystemUI and ThemePicker for user builds, and the overlay config file that enables them at boot
+PRODUCT_PACKAGES += \
+    ClockStyles \
+    CustomClockStylesSystemUIOverlay \
+    CustomClockStylesThemePickerOverlay \
+    custom_overlay_config.xml
 
 # Camelot, the PDF viewer
 PRODUCT_PACKAGES += Camelot
