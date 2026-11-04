@@ -16,3 +16,10 @@ PRODUCT_PRODUCT_PROPERTIES += ro.config.notification_sound=Argon.ogg
 PRODUCT_COPY_FILES += \
     frameworks/base/data/sounds/alarms/ogg/Hassium.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/alarms/Hassium.ogg
 PRODUCT_PRODUCT_PROPERTIES += ro.config.alarm_alert=Hassium.ogg
+
+# ThemePicker, the wallpaper and style picker, with the color bundles of ThemesStub and the overlay
+# that opens it from the wallpaper entry of Settings
+PRODUCT_PACKAGES += \
+    ThemePicker \
+    ThemesStub \
+    CustomThemePickerSettingsOverlay
