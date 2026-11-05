@@ -23,3 +23,6 @@ PRODUCT_PACKAGES += \
     ThemePicker \
     ThemesStub \
     CustomThemePickerSettingsOverlay
+
+# Framework defaults of the product, an overlay from packages/overlays/Custom
+PRODUCT_PACKAGES += CustomDefaultsFrameworkOverlay
