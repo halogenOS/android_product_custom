@@ -24,5 +24,9 @@ PRODUCT_PACKAGES += \
     ThemesStub \
     CustomThemePickerSettingsOverlay
 
+# ThemePicker lists and previews live wallpapers, so the stock Live Wallpaper Picker would only add a second app to
+# the chooser of the set-wallpaper action
+PRODUCT_REMOVED_PACKAGES += LiveWallpapersPicker
+
 # Framework defaults of the product, an overlay from packages/overlays/Custom
 PRODUCT_PACKAGES += CustomDefaultsFrameworkOverlay
