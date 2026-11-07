@@ -5,4 +5,5 @@
 # this file after the device's BoardConfig.mk and the combo makefiles, before it makes the board
 # variables read-only.
 
+include product/custom/config/BoardConfigDexpreopt.mk
 include product/custom/config/BoardConfigSystemCpu.mk
