@@ -4,3 +4,6 @@
 
 # Framework defaults of the product, an overlay from packages/overlays/Custom
 PRODUCT_PACKAGES += CustomDefaultsFrameworkOverlay
+
+# Black surfaces in dark mode, switched on and off at runtime, from packages/overlays/accents
+PRODUCT_PACKAGES += CustomBlackTheme
