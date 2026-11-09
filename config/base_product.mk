@@ -6,3 +6,6 @@ include product/custom/properties/properties.mk
 include product/custom/packages/product_packages.mk
 include product/custom/input/input.mk
 include product/custom/apps/apps.mk
+include product/custom/sounds/sounds.mk
+include product/custom/charger/charger.mk
+include product/custom/overlays/overlays.mk
