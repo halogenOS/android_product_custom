@@ -7,8 +7,12 @@ PRODUCT_PACKAGES += Etar
 # ExactCalculator, the calculator, in place of AOSP's Calculator
 PRODUCT_PACKAGES += ExactCalculator
 
-# Seedvault, the backup app
-PRODUCT_PACKAGES += Seedvault
+# Seedvault, the backup app, with the overlays that make it the default backup transport and open its
+# transport list from the backup entry of Settings
+PRODUCT_PACKAGES += \
+    Seedvault \
+    CustomDefaultsSettingsOverlay \
+    CustomDefaultsSettingsProviderOverlay
 
 # Wallpapers, the wallpaper pack
 PRODUCT_PACKAGES += Wallpapers
