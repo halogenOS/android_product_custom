@@ -4,6 +4,9 @@
 # APN list from vendor/apn
 PRODUCT_PACKAGES += apns-conf.xml
 
+# SMS and MMS app, the default holder of the SMS role
+PRODUCT_PACKAGES += messaging
+
 # Ringtones from packages/resources/lineage
 PRODUCT_PACKAGES += lineage_ringtone_sounds
 
